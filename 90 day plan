@@ -1,0 +1,197 @@
+# 90-Day Cybersecurity Job-Readiness Plan
+
+Prepared October 7, 2026. Built for a beginner-to-intermediate learner with no budget, an 8GB RAM laptop, an unreliable internet connection, and a long-term goal of becoming a CISO.
+
+## Your 90-day objective
+
+By day 90, be ready for entry-level security analyst (SOC) roles: finish the Google Cybersecurity Certificate, publish 3 portfolio projects on GitHub, and have 40+ tailored applications sent with at least one mock interview done per week in the last month.
+
+A reality check: you control the learning and the applications, not the hiring timeline. Many entry-level searches take longer than 90 days, so success at day 90 means you are job-ready and actively interviewing. An offer may arrive just after.
+
+## Pace
+
+- Plan for about 35 focused hours per week: 6 days a week, about 6 hours a day. Your 10-hour days are a ceiling for catch-up and labs, not the baseline.
+- Take one full rest day every week. Learning sticks better with rest.
+- Weak internet: download videos and PDFs when the connection is good, and save lab work for those times.
+
+## Main resources (one per phase)
+
+- **Phase 1 (foundations):** Google Cybersecurity Certificate on Coursera, which you are already in. Add Professor Messer's free CompTIA Network+ videos on YouTube for the networking sections only.
+- **Phase 2 (hands-on):** TryHackMe free rooms, starting with the Pre Security and SOC-related paths. Check which rooms are free before you start, because some content is paid.
+- **Phase 3 (portfolio and jobs):** your own GitHub portfolio and LinkedIn.
+
+## Costs and what I could and couldn't verify
+
+- Google Cybersecurity Certificate: about $49 per month on Coursera. Financial aid is available and can take 2 to 3 weeks to approve. Keep your access active until you finish.
+- CompTIA Security+ is a later option, not part of this plan. Wait until an employer will reimburse the exam fee.
+- I could not verify the TryHackMe free-room list, the YouTube channels below, or any live link in this session. Check each one yourself.
+
+## Weeks 1 to 4: Foundations (about days 1 to 30)
+
+### Week 1: Networking basics
+
+- **Goal:** explain how data moves from your laptop to a website.
+- **Actions:** (1) Watch Professor Messer's videos on IP addresses, ports, DNS, TCP vs UDP, and HTTP. (2) Continue your Google certificate course. (3) Set up free TryHackMe and GitHub accounts.
+- **Time:** about 35 hours.
+- **Quick wins:** (1) Capture a few minutes of your own traffic in Wireshark and identify one DNS and one HTTP/HTTPS packet. (2) Write a LinkedIn headline such as "Aspiring SOC Analyst | Google Cybersecurity Certificate (in progress)".
+- **Checklist:**
+  - I can explain IP, port, DNS, and TCP in my own words.
+  - I wrote a half-page "what happens when I load a website" explanation.
+  - I have a GitHub repo called cyber-learning-log with my first entry.
+
+### Week 2: Network security
+
+- **Goal:** understand common network attacks and defenses.
+- **Actions:** (1) Google course on networks and network security. (2) Messer videos on firewalls, VPNs, and common protocols. (3) TryHackMe networking and Wireshark rooms.
+- **Time:** about 35 hours.
+- **Checklist:**
+  - I can describe what a firewall, VPN, and IDS do.
+  - I can filter a Wireshark capture by IP and by protocol.
+  - I wrote one short note on a network attack (for example, port scan or DDoS) and how to spot it.
+
+### Week 3: Linux and SQL
+
+- **Goal:** work comfortably in the Linux command line and run basic SQL queries.
+- **Actions:** (1) Google course on Linux and SQL. (2) Practice daily in a Linux terminal or TryHackMe Linux rooms. (3) Practice SQL queries on a sample database.
+- **Time:** about 35 hours.
+- **Checklist:**
+  - I can navigate files, change permissions, and search logs with grep without looking things up.
+  - I can write a SQL query with SELECT, WHERE, and JOIN.
+  - I saved a cheat sheet of the commands I use most to my GitHub log.
+
+### Week 4: Security concepts and review
+
+- **Goal:** know the core security concepts and consolidate weeks 1 to 3.
+- **Actions:** (1) Google courses on security risks and on assets, threats, and vulnerabilities. (2) Build a one-page glossary of the key terms from your Google courses. (3) Review the week 1 to 3 notes.
+- **Time:** about 35 hours.
+- **Checklist:**
+  - I can explain the CIA triad, risk, threat, and vulnerability with an example each.
+  - My one-page glossary is saved to my GitHub log.
+  - I passed the graded quizzes in my Google courses so far.
+
+### Checkpoint, end of week 4 (about day 30)
+
+- Can I explain networking and Linux basics without notes?
+- Do I have at least 4 entries in my GitHub log?
+- Am I on pace in the Google certificate?
+
+## Weeks 5 to 8: Hands-on practice (about days 31 to 60)
+
+### Week 5: Threats and detection basics
+
+- **Goal:** recognize common attack types and where they show up in logs.
+- **Actions:** (1) Google course on detection and response. (2) Learn the MITRE ATT&CK matrix at a high level. (3) Start the first TryHackMe SOC-related rooms.
+- **Time:** about 35 hours.
+- **Checklist:**
+  - I can name 5 attack techniques and one log sign for each.
+  - I completed at least 5 hands-on rooms.
+
+### Week 6: Alerts and incident response
+
+- **Goal:** triage an alert and write an incident summary.
+- **Actions:** (1) Continue the detection and response course. (2) Work through SIEM rooms or a free SIEM exercise. (3) Practice the incident response steps: detect, contain, eradicate, recover, review.
+- **Time:** about 35 hours.
+- **Checklist:**
+  - I can triage a sample alert (real or false positive) and justify my decision.
+  - I wrote my first incident report in a clear template and saved it to GitHub.
+
+### Week 7: Python automation (Project 1)
+
+- **Goal:** automate a simple security task.
+- **Actions:** (1) Google course on automating tasks with Python. (2) Build Project 1: a script that reads a log file and lists failed logins by IP. (3) Write a README explaining it.
+- **Time:** about 35 hours.
+- **Checklist:**
+  - Project 1 runs and is on GitHub with a clear README.
+  - I can explain every line of my own script.
+
+### Week 8: Consolidate and Project 2
+
+- **Goal:** prove your analysis skills with a written investigation.
+- **Actions:** (1) Build Project 2: a Wireshark packet analysis write-up of a suspicious capture from a free practice source, with findings and recommendations. (2) Review your weakest topics from the Google course quizzes. (3) Spend one day sampling a specialization (cloud, AI security, or network security) through a free beginner lesson, and note what you liked.
+- **Time:** about 35 hours.
+- **Checklist:**
+  - Project 2 is on GitHub.
+  - I can explain my weakest topic out loud in 2 minutes.
+  - I wrote 3 sentences on which specialization interested me most and why.
+
+### Checkpoint, end of week 8 (about day 60)
+
+- Do I have 2 projects and at least 3 incident write-ups on GitHub?
+- Can I triage an alert out loud in under 5 minutes?
+- Am I on track to finish the Google certificate by week 10?
+
+## Weeks 9 to 12: Portfolio, applications, and interviews (about days 61 to 84)
+
+### Week 9: Capstone Project 3
+
+- **Goal:** finish the Google certificate courses and begin the capstone.
+- **Actions:** (1) Start Project 3: a home-lab or free-lab SOC investigation, from alert to final report. (2) Finish any remaining Google certificate courses.
+- **Time:** about 35 hours.
+- **Checklist:**
+  - I finished the Google courses through Python automation.
+  - Project 3 has an outline and first findings.
+
+### Week 10: Resume, portfolio, and target role
+
+- **Goal:** a job-ready resume and a clear target.
+- **Actions:** (1) Finish Project 3. (2) Write a one-page resume with only skills and work you can demonstrate, linking to your GitHub. (3) Pick your target: SOC analyst first, with a specialization shortlist based on weeks 5 to 8. Complete the Google course on preparing for cybersecurity jobs.
+- **Time:** about 35 hours.
+- **Checklist:**
+  - Resume reviewed by one other person.
+  - GitHub has 3 projects with READMEs.
+  - I sent my first 10 applications.
+
+### Week 11: Interview preparation
+
+- **Goal:** answer common SOC interview questions clearly.
+- **Actions:** (1) Practice: explain a phishing alert triage, a brute-force login investigation, and the CIA triad. (2) Prepare 5 short stories from your projects. (3) Do 2 mock interviews, which I can run with you in chat.
+- **Time:** about 35 hours, plus applications.
+- **Checklist:**
+  - I can talk through a triage scenario for 3 minutes without notes.
+  - I sent 15 more applications.
+  - I messaged at least 5 people in the field for advice.
+
+### Week 12: Final push
+
+- **Goal:** polish, apply, and interview.
+- **Actions:** (1) Apply to 15 or more roles. (2) Do 2 more mock interviews and fix weak spots. (3) Make your portfolio easy to scan, with a pinned repo and a short summary.
+- **Time:** about 35 hours.
+- **Checklist:**
+  - 40 or more applications sent in total.
+  - I completed at least 4 mock interviews.
+  - My LinkedIn and GitHub match my resume.
+
+### Checkpoint, end of week 12 (about day 84)
+
+- Can I demonstrate my skills with real projects?
+- Is the application pipeline moving?
+
+## Days 85 to 90: Final review
+
+- **Days 85 and 86:** revisit your weakest topic from the checkpoints.
+- **Days 87 and 88:** a final timed assessment: triage two sample alerts and explain your decisions out loud.
+- **Day 89:** update your resume and portfolio with what you learned.
+- **Day 90:** write a one-page review of what worked, what didn't, and your plan for days 91 to 180. Keep applying.
+
+## If you fall behind
+
+If you miss a checklist by the end of the week:
+
+1. Do not add hours. Cut the lowest-priority action and carry over one item.
+2. If you are two weeks behind, combine two weeks into one, and drop the optional specialization sampler first.
+3. Never skip the projects and the interview weeks. They are what employers see.
+4. Keep your rest day.
+
+## People to follow on YouTube (not verified this session)
+
+- **Professor Messer:** clear, free networking and security fundamentals videos. Use him for weeks 1 and 2 and for any concept you don't understand.
+- **MyDFIR:** SOC analyst home-lab projects. Use it to see how portfolio projects are built and explained.
+- **The Cyber Mentor:** beginner-friendly security content and career guidance. Use it for motivation and practical advice.
+
+## Long-term: the road to CISO
+
+A CISO role is a long path. A first analyst job gives you the technical base, and later steps usually include experience across several areas, risk and management skills, and certifications such as CISSP.
+
+## One action to take today
+
+Spend two hours on Professor Messer's videos about IP addresses, ports, and DNS, then write a half-page explanation of how a website loads, in your own words, and save it as your first entry in a new GitHub repo.
