@@ -4,11 +4,10 @@
 **Long-term goal:** Grow into security leadership (CISO).
 
 ## About me
-[Two sentences: who you are, and why you're learning cybersecurity.]
+[Want to advance in cybesecurity and would love to work in this branch.]
 
 ## Currently working on
 - Google Cybersecurity Certificate (in progress)
-- ISC2 Certified in Cybersecurity (CC) exam prep
 - Hands-on labs on TryHackMe
 
 ## Skills I'm building
@@ -23,4 +22,4 @@ Networking, Linux, SQL, Wireshark, incident response, Python
 - Project 3: SOC alert investigation - coming soon
 
 ## Contact
-[Your LinkedIn link]
+solomonsolola@gmail.com
